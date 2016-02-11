@@ -12,6 +12,8 @@ Improvements added are:
 
 The project is released under [The Code Project Open License (CPOL) 1.02](http://www.codeproject.com/info/cpol10.aspx)
 
+*First time app connects to Skype you need to authorize in Skype the connection coming from SkypeStatusChanger*
+
 **Server side**
 
 The ftp connection data (host, username, password) should be set in app.config file.
@@ -39,6 +41,6 @@ You have to make sure that:
 
 1. Skype is installed
 2. In the project Platform Target should be kept as x86 (not any) because it use Skype4COM dll.
-3. 3. If any COM error arise trying registering Skype4COM 
+3. If any COM error arise trying registering Skype4COM 
    C:\Program Files (x86)\Common Files\Skype>regsvr32 Skype4COM.dll
 
