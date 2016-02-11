@@ -18,7 +18,7 @@ The project is released under [The Code Project Open License (CPOL) 1.02](http:/
 
 The ftp connection data (host, username, password) should be set in app.config file.
 
-The running skype account will be autodetect by the application. It will look for a subfolder (specified in app.config) and in that folder should be present [-1, ... 7].png files rapresenting the corresponding status. A sample of these file are present in /image subdirectory of the project. If you wish to customize:
+The running skype account will be autodetect by the application. It will look for a subfolder (specified in app.config) and then in a subfolder that mathc the skype username. In that folder should be present [-1, ... 7].png files rapresenting the corresponding status. The software will set the current status as current.png via renaming numbered images. A sample of these file are present in /image subdirectory of the project. If you wish to customize:
 
         Unknown = -1,
         Offline = 0,
