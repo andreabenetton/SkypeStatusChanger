@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+<body>
+<p>
+    <a href="skype:userid?call">
+        <script>
+            setInterval(function() {
+                if (document.hasFocus()) {
+                    d = new Date();
+                    image = jQuery('img#image_autorefresh_KoO6TBZnhN');
+                    if (image.data("query") == '') {
+                        image.attr("src", image.data("src") + "?" + d.getTime());
+                    } else {
+                        image.attr("src", image.data("src") + "?" + d.getTime() + "&" + image.data("query"));
+                    }
+                }
+            }, 5000);
+
+        </script>
+
+        <img src="http://site.host/skype/userid/current.png"
+             data-src="http://site.host/skype/userid/current.png"
+             data-query=""
+             alt=""
+             class="image_autorefresh image_autorefresh_changed_width"
+             id="image_autorefresh_KoO6TBZnhN"
+             data-refresh="5"
+             width="200" height="200">
+    </a>
+</p>
+</body>
+</html>

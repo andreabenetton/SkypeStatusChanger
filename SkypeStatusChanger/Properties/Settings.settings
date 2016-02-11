@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SkypeStatusChanger.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FTPHost" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ftp.pcam.com</Value>
+    </Setting>
+    <Setting Name="FTPPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PCam666</Value>
+    </Setting>
+    <Setting Name="FTPUsername" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Pcam</Value>
+    </Setting>
+    <Setting Name="FTPSkypeDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/skype/</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
