@@ -141,7 +141,7 @@ namespace SkypeStatusChanger
         Traymousemessage = 0x800, //WM_USER + 1024
         App = 0x8000,
     }
-
+	 
     [SuppressUnmanagedCodeSecurity]
     internal static class NativeMethods
     {
